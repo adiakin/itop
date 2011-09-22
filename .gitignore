@@ -1,0 +1,17 @@
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+.*.sw[a-z]
+*.un~
+*~
+!.gitignore
+Desktop.ini
+config-itop.php
+ 
