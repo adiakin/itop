@@ -1419,7 +1419,7 @@ class Server extends InfrastructureCI
 		MetaModel::Init_SetZListItems('details', array('name', 'status', 'org_id', 'importance', 'brand', 'model', 'serial_number', 'asset_ref', 'description', 'location_id', 'location_details', 'management_ip', 'default_gateway', 'cpu', 'ram', 'hdd', 'os_family', 'os_version', 'contact_list', 'document_list', 'solution_list', 'contract_list', 'ticket_list', 'nwinterface_list', 'application_list', 'patch_list'));
 		MetaModel::Init_SetZListItems('advanced_search', array('name', 'status', 'org_id', 'importance', 'brand', 'model', 'serial_number', 'asset_ref', 'description', 'location_id', 'location_details', 'management_ip', 'default_gateway', 'cpu', 'ram', 'hdd', 'os_family', 'os_version'));
 		MetaModel::Init_SetZListItems('standard_search', array('name', 'status', 'org_id', 'importance', 'brand', 'model', 'serial_number', 'asset_ref', 'location_id', 'management_ip', 'default_gateway', 'os_family', 'os_version'));
-		MetaModel::Init_SetZListItems('list', array('status', 'org_id', 'importance', 'brand', 'model', 'location_id', 'os_family'));
+		MetaModel::Init_SetZListItems('list', array('description','status', 'org_id', 'importance','location_id', 'os_family'));
 	}
 }
 class Printer extends InfrastructureCI
